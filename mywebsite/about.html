@@ -35,7 +35,6 @@
                 margin:10px;
                 width: 37%;
                 float: right;
-               
                 padding: 10px;
             }
             
@@ -47,7 +46,7 @@
                 float: left;
             }
             
-            section p {
+            .1 p {
                 z-index: 1;
                 margin-top: 30px;
                 width: 50%;
@@ -74,10 +73,40 @@
             a:active {
                 color: aqua;
             }
+            
+            
+            .mainpart {
+                background-color: aqua;
+                width: 50%;
+                position:absolute;
+                top：10px;
+                z-index: 3;
+                margin-left: 150px;
+                margin-top: 230px;
+                /*typography*/
+                font-size: 20px;
+                
+            }
+            
+            .stay {
+                position: fixed;
+            }
         </style>
     </head>
 
     <body>
+        <section class="mainpart">
+            <p>Hi, My name is Xunlingmuzi Mo.
+                <br>
+            <br>I am a graphic designer recently studying in Otis college of art and design. My focus is branding, phototgraphy, and motion graphics. 
+
+<br>I am passionate with all the new things. I also a good learner. I love design. I love photography. I love guitar and music. I love my life.
+                
+            </p>            
+        </section>
+        
+        <a href="index.html">
+        <section class="stay">
         <header>
             <h1>Xunling-muzi<br> Mo <br>Design</h1>
             <ul>
@@ -89,7 +118,9 @@
             </ul>
         </header>
         
-        <section>
+        
+        
+        <section class="1">
         <div>
               <img class="work" src="img/15.jpg"/>
               <h2>SILENT </h2>
@@ -156,5 +187,7 @@ To dig an uncrossable river
 He makes no friend who never made a foe.</p>
           </div>
             </section>
+            </section>
+            </a>
     </body>
 </html> 
