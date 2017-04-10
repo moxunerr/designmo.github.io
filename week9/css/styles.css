@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Pavanam|Roboto:700');
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global Styles */
+body {
+    font-family: 'Pavanam', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/* Typography */
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: orangered;
+}
+
+.conten h2 {
+    margin-bottom:  .5em;
+    color: aqua;
+}
+
+a:hover {
+    color: aqua;
+    transition: all .5s ease;
+     -webkit-transition: all .5s ease;
+    text-decoration: none;
+}
+
+
+/* Header + navigation */
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+.miannav ul {
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.mainnav ul li {
+    margin: 0px 16px 0px 0px;
+    display: inline-block;
+}
+
+
+/* footrt */
+footer {
+    padding: 20px;
+}
+
+
+/* General Layout */
+.content {
+    padding: 20px;
+    width: 640px;   
+}
+
+
+/* Media Queries*/
