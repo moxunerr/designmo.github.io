@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Lora');
+
+/* Universal Reset */
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Lora', Georgia, Times, serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: rgb(48, 51, 56);
+}
+
+img {
+    width: 100%;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Concert One', cursive;
+    color: blue;
+}
+
+.content h2 {
+    margin-bottom: .5em;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    
+    transition: all .5s ease;
+        -webkit-transition: all .5s ease;
+}
+
+a:hover {
+    color: aqua;
+}
+
+/* Header + Navigation */
+
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+.mainnav ul {
+    padding: 14px 0px 0px;
+    list-style: none;
+}
+
+.mainnav ul li {
+    margin: 0px 16px 0px 0px;
+    display: inline-block;
+}
+
+/* Footer */
+
+footer {
+    padding: 20px;
+}
+
+/* General Layout */
+
+.content {
+    padding: 20px;
+    max-width: 640px;
+}
+
+
+
+/* Media Queries */
+
+
+
+
+
+
+
+

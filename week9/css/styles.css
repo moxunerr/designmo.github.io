@@ -17,14 +17,16 @@ img {
 }
 
 /* Typography */
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     color: orangered;
 }
 
-.conten h2 {
+.content h2 {
     margin-bottom:  .5em;
     color: aqua;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 a:hover {
