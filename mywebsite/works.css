@@ -80,21 +80,20 @@ table {
             bottom:-90px;
 }
 
-            header ul {
+             header ul {
                 position: fixed;
                 bottom: 30px;
                 list-style: none;
                 font-size: 25px;
                 padding: 20px;
                 left: 30px;
-            } 
-            
+            }          
+
             
             h1 {
                 padding: 30px;
-                width: 100%;
                 position:fixed; 
-                font-family:'Francois One','Fjalla One','Open Sans', sans-serif;
+                font-family:'Fjalla One','Open Sans', sans-serif;
                 font-size: 50px;
                 margin: -20px;
                 margin-left: 15px;
@@ -102,8 +101,6 @@ table {
                 line-height: 100px;
                 text-transform: uppercase;
             }
-            
-            
 
             
             h2 {
@@ -131,7 +128,7 @@ table {
                 position: relative;
                 float: left;
                 padding: 60px;
-            }
+}
             
             section p {
                 z-index: 1;
@@ -146,13 +143,14 @@ table {
                 margin-top: 120px;
             }
             
-            a:link {
+             a {
                 text-decoration: none;
-                color: black;
+                font-family: 'Roboto',sans-serif;
             }
             
             a:hover {
-                color: orangered  ;
+                color: black;
+                transition: all .5s ease;
             }
             
             a:visited {
@@ -160,8 +158,9 @@ table {
             }
             
             a:active {
-                color: aqua;
                 font-kerning: 2px;
+                display:inline;
+                font-family:  'Fjalla One','Francois One';
             }
             
             footer {
