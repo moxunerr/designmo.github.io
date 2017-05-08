@@ -5,7 +5,7 @@
             
             header ul {
                 position: fixed;
-                bottom: 30px;
+                bottom: 0px;
                 list-style: none;
                 font-size: 25px;
                 padding: 20px;
@@ -13,11 +13,6 @@
                 font-family:'Roboto',sans-serif;
             }          
 
-            .about {
-            font-family: 'Fjalla One','Francois One',sans-serif;
-            color: black;
-            letter-spacing: 10px;
-            }
 
 
             h1 {
@@ -33,6 +28,19 @@
                 text-transform: uppercase;
             }
             
+
+header ul a li {
+            font-size: 20px;
+            line-height: 26px;
+}
+            .about {
+            font-weight: 600;
+            color: black;
+            font-size:25px ;
+            letter-spacing: 30px;
+            }
+
+
                 .xian {
                 width: 110px;
                 position: fixed;
@@ -47,6 +55,7 @@
                 float: right;
                 padding: 30px;
                 margin-right: 150px; 
+                margin-top: 52px;
                 padding-top: 30px;
                 padding-bottom: 30px;
                 
@@ -102,7 +111,7 @@
             a:active {
                 font-kerning: 2px;
                 display:inline;
-                font-family:  'Fjalla One','Francois One';
+                font-family:  'Roboto',sans-serif;
             }
             
             footer {

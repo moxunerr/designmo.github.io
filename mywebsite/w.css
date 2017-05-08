@@ -1,25 +1,101 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*------------------------------------------
+                    layout 
+-------------------------------------------*/
+
 
             body {
              background: #fcfcfc;
+             border-right: 10px solid orangered;
+             border-left: 10px solid orangered;
             }
             
+        .top-border {
+            margin: 0 auto;
+            width: 100%;
+            border-top: 10px solid orangered; 
+            position: fixed;    
+            top:-120;
+}
+
+        .bottom-border{
+            margin: 0 auto;
+            width: 100%;
+            border-top: 10px solid orangered; 
+            position: fixed;    
+            bottom:0px;
+}
+
             header ul {
                 position: fixed;
-                bottom: 30px;
+                bottom: 35px;
                 list-style: none;
                 font-size: 25px;
-                padding: 20px;
-                left: 30px;
-            }          
+                padding: 15px;
+                left: 35px;
+            }       
+header ul a li {
+            font-size: 20px;
+            line-height: 26px;
+}
 
 
             h1 {
-                padding: 30px;
+                margin-left:35px;
+                margin-top: 10px; 
                 position:fixed; 
                 font-family:'Fjalla One','Open Sans', sans-serif;
                 font-size: 50px;
-                margin: -20px;
-                margin-left: 15px;
                 letter-spacing: 50px;
                 line-height: 100px;
                 text-transform: uppercase;
@@ -30,28 +106,39 @@
             h2 {
                 font-family: 'Fjalla One','Open Sans', sans-serif;
                 font-size: 30px;
-                
             }
 
             
-            div {
-
+            #main {
                 margin:60px;
                 width: 60%;
                 float: right;
                 padding: 30px;
                 margin-right: 170px; 
-                padding-top: 30px;
                 padding-bottom: 30px;
             }
             
+.text {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 85px;
+    float: left;
+    
+}
+.passage{
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+    clear: both;
+    font-family:'Roboto',sans-serif;
+
+}
             .work1 {
                 width: 70%;
                 z-index: -99;
                 float: left;
-                margin-right: 30px;
-                margin-left: 60px;
-                padding: 10px;
+                margin-left: 170px;
+                clear:both;
             }
             
             .work2 {
@@ -85,11 +172,32 @@
                 margin-top: 370px;
             }
             
-            
+.arrow img {
+                position:fixed; 
+                margin-left: 15px;
+                width: 7%;
+                right: 9px;
+}
+
+.left img {
+    top: 26px;
+}
+
+.right img {
+    bottom: 40px;
+    
+}
+
+.left img:hover {
+    background-image: url(img/icons/hover-left.png);
+    opacity: 0%;
+    top: 26px;
+}
+
             span {
                 font-weight: 100;
                 font-size: 15px; 
-                font-family:'Roboto',sans-serif;
+                font-family:'Roboto 400',sans-serif;
             }
             
             a {
