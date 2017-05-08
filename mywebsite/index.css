@@ -157,6 +157,12 @@ header ul a li {
                 font-family: 'Roboto',sans-serif;
                 color: orangered;
             }
+
+            section a {
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                color: orangered;
+            }
             
             a:hover {
                 color: black;
