@@ -38,6 +38,7 @@ header ul a li {
             color: black;
             font-size:25px ;
             letter-spacing: 30px;
+            font-family: 'Fjalla One';
             }
 
 
@@ -79,6 +80,11 @@ header ul a li {
                 color: orangered;
             }
 
+
+.ins {
+    width: 28px;
+    padding-top: 9px;
+}
             .touxiang {
                 width: 100%;
                 z-index: -99;
