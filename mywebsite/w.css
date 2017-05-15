@@ -56,14 +56,14 @@ table {
 
             body {
              background: #fcfcfc;
-             border-right: 10px solid orangered;
-             border-left: 10px solid orangered;
+             border-right: 8px solid orangered;
+             border-left: 8px solid orangered;
             }
             
         .top-border {
             margin: 0 auto;
             width: 100%;
-            border-top: 10px solid orangered; 
+            border-top: 8px solid orangered; 
             position: fixed;    
             top:-120;
 }
@@ -71,7 +71,7 @@ table {
         .bottom-border{
             margin: 0 auto;
             width: 100%;
-            border-top: 10px solid orangered; 
+            border-top: 8px solid orangered; 
             position: fixed;    
             bottom:0px;
 }
@@ -134,21 +134,26 @@ header ul a li {
 
 }
             .work1 {
-                width: 70%;
+                width: 50%;
                 z-index: -99;
                 float: left;
-                margin-left: 170px;
+                margin-left: 90px;
                 clear:both;
             }
             
             .work2 {
-                width: 100%;
+                width: 70%;
                 z-index: -99;
                 float: left;
                 margin-right: 30px;
                 margin-left: 60px;
                 padding: 25px;
             }
+
+.work3 {
+    width: 125%;
+    margin-left: 10px;
+}
 
             .touxiang {
                 width: 80%;
