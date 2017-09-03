@@ -125,10 +125,11 @@ header ul a li {
                 z-index: -99;
                 float: left;
                 margin-right: 30px;
-                margin-left: 60px;
-                padding: 20px;
-                
+                margin-left: 30px;
+                padding: 10px;   
             }
+
+        
 
             .touxiang {
                 width: 80%;
@@ -148,13 +149,15 @@ header ul a li {
                 float: left;
                 font-size: 20px;
                 margin-top: 370px;
+                line-height: 25px;
             }
             
             
             span {
                 font-weight: 100;
-                font-size: 15px; 
+                font-size: 12px; 
                 font-family:'Roboto',sans-serif;
+                line-height: 10px;
             }
             
             a {
