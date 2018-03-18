@@ -107,17 +107,16 @@ header ul a li {
             }
             
             div {
-                border: solid 5px orangered;
-                margin:70px;
-                width: 53%;
+                margin:10px;
+                width: 60%;
                 float: right;
-                padding: 30px;
+                padding: 20px;
                 margin-right: 150px; 
                 padding-top: 40px;
                 padding-bottom: 40px;
-                padding-left: 20px;
+                padding-left: 5px;
             }
-            
+                
 
 
             .work {
@@ -148,7 +147,7 @@ header ul a li {
                 width: 30%;
                 float: left;
                 font-size: 20px;
-                margin-top: 370px;
+                margin-top: 10px;
                 line-height: 25px;
             }
             
