@@ -81,6 +81,7 @@ header ul a li {
                 letter-spacing: 50px;
                 line-height: 100px;
                 text-transform: uppercase;
+                color: black;
             }
             
 
@@ -115,6 +116,15 @@ header ul a li {
     font-family:'Roboto',sans-serif;
 
 }
+
+            .work1{
+                width: 55%;
+                z-index: -99;
+                float: left;
+                margin-right: 30px;
+                margin-left: 60px;
+                padding: 40px;
+            }
 
             .work2 {
                 width: 90%;
